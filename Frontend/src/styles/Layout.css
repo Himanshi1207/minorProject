@@ -1,0 +1,47 @@
+.sidebar {
+  height: 100vh !important;
+  /* border-radius: 5px; */
+  background-color: rgb(24 11 11);
+  box-shadow: 0 0 2px black;
+  color: rgb(255, 137, 137);
+}
+
+.menu {
+  padding-top: 100px;
+}
+
+.menu-item {
+  padding-top: 30px;
+}
+
+.menu-item a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  background-color: white;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.active a,
+.active i {
+  color: #000000;
+}
+.form-banner{
+  width: 60%;
+  background-color: #fa8686c5;
+}
+
+input[type='radio']:checked{
+  background-color: #fa8686c5;
+  border-color: #fa8686c5;
+}

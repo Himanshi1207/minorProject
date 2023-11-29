@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*overflow-y: hidden;*/ 
+}
+.login{
+  color: #3a4355;
+}
+/* ===========
+==== FORM
+=========== */
+.button{
+  background-color: #fa8686c5;
+  border-color: #fa8686c5;
+}
+.button:hover{
+  background-color: #fa8686c5;
+  border-color: #fa8686c5;
+}
+  
+.sizing{
+  /*display: flex; */
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form-banner img {
+  height: 90%;
+    width: 93%;
+   
+    top: 236px;
+    left: 0;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* =============
+====== laoder 
+=============== */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================
+--------- navbar 
+=================== */
+.navbar img{
+  height: 40px;
+  top: 16px;
+  left: 14px;
+  position: absolute;
+  width: 40px;
+}
+.navbar {
+  background-color: #fa8686c5 !important;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+ 
+  color: white !important;
+}
+.color{
+  color: #fa8686c5;
+}
